@@ -1,0 +1,47 @@
+/* -*- Mode: Javascript; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
+{
+    "arms":
+    [
+        {
+            "name": "PSM1",
+            "type": "PSM",
+            "simulation": "KINEMATIC",
+            "arm": "arm/PSM_KIN_SIMULATED_LARGE_NEEDLE_DRIVER_400006.json",
+            "base-frame": {
+                "reference-frame": "simworld",
+                "transform": [[  0.4999779990319577,  -0.86603810567665,       0.0,         -1.513],
+                              [  0.86603810567665,  0.4999779990319577,        0.0,         -0.082],
+                              [  0.0,  0.0,          1.0,          0.679],
+                              [  0.0,  0.0,          0.0,          1.000]]
+            }
+        }
+        ,
+        {
+            "name": "PSM2",
+            "type": "PSM",
+            "simulation": "KINEMATIC",
+            "arm": "arm/PSM_KIN_SIMULATED_LARGE_NEEDLE_DRIVER_400006.json",
+            "base-frame": {
+                "reference-frame": "simworld",
+                "transform": [[  -0.4999779990319577,  -0.86603810567665,          0.0,        -1.513],
+                              [  0.86603810567665,  -0.4999779990319577,          0.0,         0.082],
+                              [  0.0,  0.0,          1.0,          0.679],
+                              [  0.0,  0.0,          0.0,          1.000]]
+            }
+        }
+        ,
+        {
+            "name": "ECM",
+            "type": "ECM",
+            "simulation": "KINEMATIC",
+            "arm": "arm/ECM_KIN_SIMULATED_STRAIGHT.json",
+            "base-frame": {
+                "reference-frame": "simworld",
+                "transform": [[  0.03645689658618845,  -0.8596215583034492,          -0.50962895442788,        -1.513],
+                              [  0.9993243540384842,  0.02898081405343622,          0.022604155422558586,         0.007],
+                              [  -0.00466155734395185,  -0.5101087030396074,          0.8600973090100794,          0.692],
+                              [  0.0,  0.0,          0.0,          1.000]]
+            }
+        }
+    ]
+}
